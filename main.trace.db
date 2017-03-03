@@ -1,0 +1,6 @@
+2017-03-02 17:14:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXIST[*] FORMS (ID IDENTITY, USERNAME VARCHAR, ADDRESS VARCHAR, EMAIL VARCHAR); "; expected "EXISTS"; SQL statement:
+CREATE TABLE IF NOT EXIST forms (id IDENTITY, username VARCHAR, address VARCHAR, email VARCHAR); [42001-192]
+2017-03-02 17:16:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+SELECT * FROM users [42102-192]
